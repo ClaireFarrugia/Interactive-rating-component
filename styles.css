@@ -1,0 +1,129 @@
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    display: flex;
+    margin: 0px;
+}
+
+#question{
+    background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+    border-radius: 16px;
+    color: hsl(217, 12%, 63%);
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#star{
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    height: 30px;
+    width: 30px;
+    display: flex;
+}
+
+#orangestar{
+    margin: auto;
+}
+
+#title{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#text{
+    font-size: 15px;
+}
+
+.rating{
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    height: 45px;
+    width: 45px;
+    border: none;
+
+}
+
+#ratings{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#submit{
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 16px;
+    border: none;
+    margin: 0 15px;
+    width: 270px;
+    height: 30px;
+}
+
+#submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
+
+#submit:disabled{
+    background-color: grey;
+    cursor: auto;
+    color: white;
+}
+
+.rating:hover{
+    color: white;
+    background-color:hsl(25, 97%, 53%) ;
+    cursor: pointer;
+}
+
+.clicked{
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+}
+
+#thanks{
+    color:  hsl(217, 12%, 63%);
+    border-radius: 16px;
+    background-color: hsl(213, 19%, 14%);
+    width: 300px;
+    height: 350px;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#thankyou{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#result{
+    color:hsl(25, 97%, 65%);
+    border-radius: 16px;
+    background-color: hsl(213, 19%, 18%);
+    font-size: small;
+    width: 150px;
+    height: 30px;
+    margin: 0px auto;
+    line-height: 35px;
+
+}
+
+#phone{
+    height: 30%;
+
+}
